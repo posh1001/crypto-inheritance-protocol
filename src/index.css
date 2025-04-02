@@ -2074,3 +2074,616 @@ input[type="checkbox"]:checked::after {
 }
 
 /**************************END OF PLAN PAGE*************************************************/
+
+/***********************START CONNECT WALLET FORM********************************************/
+
+.signup-wallet-form {
+  width: 422px;
+  height: 577px;
+  top: 260px;
+  left: 290px;
+  border-radius: 24px;
+  border-width: 1px;
+  padding: 32px;
+ }
+
+  #connect::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+ }
+
+ .wallet-form {
+  width: 486px;
+  height: 597px;
+  position: relative;
+  top: 80px;
+  left: 220px;
+  border-radius: 24px;
+  border-color: rgba(126, 126, 126, 1);
+  border: 1px solid;
+  border-width: 5px;
+  padding: 32px;
+  background: rgba(26, 26, 26, 1);
+ }
+
+
+ .signup-wallet-form button {
+  width: 360px;
+  height: 52px;
+  gap: 26px;
+  background: rgba(230, 121, 32, 1);
+  color: rgba(255, 255, 255, 1);
+ }
+
+ .next-wallet {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle; 
+ }
+
+ .connect-text h3 {
+  width: 390px;
+  height: 43px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: -4%;
+  color: rgba(255, 255, 255, 1);  
+ }
+
+ .connect-text p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400k;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+ }
+
+ .wallet1 {
+  background-color: rgba(230, 121, 32, 1);
+  border-spacing: 15px;
+  color: black;
+  border: 2px dotted black;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60%;
+  z-index: 1;
+}
+
+input[type="checkbox"]:checked {
+  background: transparent; /* Green color when checked */
+  border-color: rgba(230, 121, 32, 1);
+}
+
+
+input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 19px;
+  width: 18px;
+  height: 19px;
+  background-color: rgba(230, 121, 32, 1); /* Inner circle */
+  border: 1px dotted rgb(10, 10, 10);;
+  z-index: 1;
+}
+
+#connect-wallet[type="checkbox"]:checked {
+  background: transparent; /* Green color when checked */
+  border-color: rgba(230, 121, 32, 1);
+}
+
+
+#connect-wallet[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 18px;
+  height: 19px;
+  background-color: rgba(230, 121, 32, 1); /* Inner circle */
+  border: 1px dotted rgb(10, 10, 10);;
+  z-index: 1;
+}
+
+#asset1 {
+  background-color: transparent;
+}
+
+#asset1::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color:#ddd;
+  position: relative;
+  left: 30px;
+}
+
+#asset1 label {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  position: relative;
+  right: 5px;
+}
+
+.asset-option {
+  width: 422px;
+  height: 56px;
+  border-radius: 6px;
+  border-width: 1px;
+  padding: 16px;
+  gap: 12px;
+  
+}
+
+.asset-option {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle; 
+}
+
+.usl4 {
+  width: 352px;
+  height: 62px;
+  border-radius: 6px;
+  gap: 10px;
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  border: 1px solid rgba(126, 126, 126, 1);
+}
+
+.usl4 input {
+  width: 18px;
+  height: 40px;
+  position: relative;
+  left: 52%;
+  bottom: 5px;
+}
+
+.usl4 p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  right: 5px;
+  top: 5px;
+}
+
+.usl5 {
+  width: 422px;
+  height: 56px;
+  border-radius: 6px;
+  border-width: 1px;
+  padding: 16px;
+  gap: 10px;
+  border: 1px solid rgba(126, 126, 126, 1);
+}
+
+.usl5 input {
+  width: 18px;
+  height: 40px;
+  position: relative;
+  left: 70%;
+}
+
+.usl5 p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  right: 5px;
+  top: 5px;
+}
+
+.usl6 {
+  width: 352px;
+  height: 62px;
+  border-radius: 6px;
+  gap: 10px;
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  border: 1px solid rgba(126, 126, 126, 1);
+}
+
+.usl6 input {
+  width: 18px;
+  height: 40px;
+  position: relative;
+  left: 54%;
+  bottom: 5px;
+}
+
+.usl6 p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  right: 5px;
+  top: 5px;
+}
+
+#asset4 {
+  background-color: transparent;
+}
+
+#asset4::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color:#ddd;
+  position: relative;
+  left: 10px;
+}
+
+
+#asset-cta:hover {
+   background-color: #833508;
+   color: #ddd;
+}
+
+.wallet1 {
+  display: flex;
+  transform: translateX(2600%);
+  position: relative;
+  top: 35px;
+  align-self: center;
+  z-index: 100;
+}
+
+
+.coti {
+  transform: translateX(80%);
+  margin-left: 7px;
+  padding: 5px;
+  position: relative;
+  bottom: 42px;
+  align-self: center;
+  z-index: 1;
+}
+
+.meta {
+  transform: translateX(80%);
+  margin-left: 7px;
+  padding: 5px;
+  position: relative;
+  bottom: 42px;
+  align-self: center;
+  z-index: 1;
+}
+
+.trust {
+  transform: translateX(80%);
+  margin-left: 7px;
+  padding: 5px;
+  position: relative;
+  bottom: 42px;
+  align-self: center;
+  z-index: 1;
+}
+
+.wallet2 {
+  border-spacing: 15px;
+  color: #6e6d6d;
+  border: 3px solid;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60%;
+  z-index: 1;
+}
+
+
+
+.wallet2 {
+  display: flex;
+  transform: translateX(2600%);
+  position: relative;
+  top: 35px;
+  align-self: center;
+  z-index: 1;
+}
+
+.wallet3 {
+  width: 100%;
+  display: flex;
+  transform: translateX(45%);
+  color: #6e6d6d;
+  position: relative;
+  top: 35px;
+  align-self: center;
+  z-index: 1;
+}
+
+#options::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  left: 28px;
+}
+
+#option2::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+}
+/********************END OF CONNECT WALLET 2***********************************************************/
+
+/**********************STARTING THE LANDING PAGE*************************************************************/
+
+.top-header {
+  background-image: url('./assets/images/header.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-details {
+  width: 100%;
+  position: relative;
+  top: 12rem;
+  gap: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-details h1 {
+  width: 700px;
+ height: 123px;
+ font-family: "Space Grotesk", sans-serif;
+ font-weight:bolder;
+ font-size: 65px;
+ line-height: 100%;
+ letter-spacing: 0%;
+ color: rgba(255, 255, 255, 1);
+}
+
+.header-details p {
+width: 750px;
+height: 13px;
+font-family: "Lato", sans-serif;
+font-weight:500;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+padding: 15px;
+position: relative;
+}
+
+.second-header {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight:500;
+  font-size: 75px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  line-height: 250px;
+}
+
+.second-header2 h3 {
+ font-family: "Space Grotesk", sans-serif;
+ font-weight:500;
+ font-size: 45px;
+ color: rgba(255, 255, 255, 1);
+ position: relative;
+
+}
+
+.second-header2 p {
+ font-family: "Lato", sans-serif;
+ font-weight: 300;
+ font-size: 25px;
+ position: relative;
+ top: "10px";
+ color: rgba(255, 255, 255, 1);
+}
+
+.header-details button {
+   background-color:  rgba(230, 121, 32, 1);
+   width: 280px;
+   height: 60px;
+   color: rgba(255, 255, 255, 1);
+   font-family: "Space Grotesk", sans-serif;
+   font-weight:500;
+   font-size: 22px;
+   position: relative;
+   top: 20px;
+}
+
+#get-started {
+ text-decoration: none;
+}
+
+#get-started:hover {
+ text-decoration: none;
+ background-color: #BE591E;
+}
+
+#section3 {
+  position: relative;
+  top: 85px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+#section3 img {
+  position: relative;
+  right: 10rem;
+  bottom: 5rem;
+}
+
+#section3 h3 {
+ position: relative;
+ font-family: "Space Grotesk", sans-serif;
+ font-weight:500;
+ font-size: 35px;
+}
+
+.image-container {
+ overflow: hidden; /* Hides the image before it slides in */
+ width: 80%; /* Adjust the container width as needed */
+}
+
+/* The sliding image */
+.slide-image {
+ width: 100%;
+ transform: translateX(-100%); 
+ animation: slideIn 1s forwards; 
+}
+
+/* Keyframes for the sliding animation */
+@keyframes slideIn {
+ 0% {
+     transform: translateX(-100%); 
+ }
+ 100% {
+     transform: translateX(0); 
+ }
+}
+
+.section4 {
+  background-image: url('./assets/images/works.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.section4 h3 {
+ font-family: "Space Grotesk", sans-serif;
+ font-size: 60px;
+ font-weight:500;
+ color: rgba(255, 255, 255, 1);
+ line-height: 75px;
+}
+
+.section4 li {
+ font-size: 25px;
+ font-weight:500;
+ color: rgba(255, 255, 255, 1);
+ font-family: "Lato", sans-serif;
+ line-height: 40px;
+ position: relative;  
+}
+
+#section4-row {
+  position: relative;
+  top: 105px;
+}
+
+#section4-btn {
+  background-color:  rgba(230, 121, 32, 1);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  width: 280px;
+  height: 65px;
+  position: relative;
+  top: 15px;
+}
+
+#section5 {
+ color: rgba(255, 255, 255, 1);
+ position: relative;
+ top: 5rem;
+}
+
+#section5 h3 {
+ font-family: "Space Grotesk", sans-serif;
+ font-size: 32px;
+ font-weight: 500;
+}
+
+#section5 p {
+ font-family: "Lato", sans-serif;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 38px;
+}
+
+.section5-h1 {
+ font-family: "Space Grotesk", sans-serif;
+ font-size: 48px;
+ font-weight: 500;
+ color: rgba(255, 255, 255, 1);
+ text-align: center;
+ position: relative;
+ top: 18px;
+}
+
+.footer-name {
+  background-color: rgb(32, 32, 34);
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+ font-weight: 400;
+ font-family: "Lato", sans-serif;
+ height: 68px;
+ position: relative;
+}
+
+.footer-name p {
+ font-family: "Lato", sans-serif;
+ position: relative;
+ top: 25px;
+}
+
+.animated-text {
+ font-size: 3rem;
+ font-weight: bold;
+ color: #333;
+ opacity: 0; /* Starts invisible */
+ animation: dropIn 1s ease-out forwards;
+}
