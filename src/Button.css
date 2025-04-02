@@ -27,11 +27,32 @@
   }
   
   .btn-primary:hover {
+    background-color: rgb(99, 98, 96);
+  }
+
+  .btn-secondary {
+    background-color: rgba(230, 121, 32, 1);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    gap: 10px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    
+  }
+  
+  /* .btn-secondary:hover {
     background-color: rgb(121, 80, 6);
   }
   
   /* Secondary button */
-  .btn-secondary {
+  /* .btn-secondary {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -50,7 +71,7 @@
   
   .btn-secondary:hover {
     background-color: rgba(230, 121, 32, 1);
-  }
+  } */ */
   
   /* Danger button */
   .btn-danger {
