@@ -124,3 +124,35 @@ footer p {
   font-size: 25px;
   padding: 10px;
 }
+
+.sec1 img {
+  position: relative;
+  right: 25rem;
+}
+
+#sec2 h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  width: 570px;
+}
+
+#sec li {
+  color: white;
+   text-align: center;
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-size: 30px;
+}
+
+#new-sec {
+   background-image: url(./assets/Images/works.webp);
+   height: 100%;
+   background-repeat: no-repeat;
+}
+
+#sec2 {
+ position: relative;
+ top: 65px;
+ color: white;
+}
