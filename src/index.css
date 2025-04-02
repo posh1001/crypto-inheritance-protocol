@@ -1660,3 +1660,222 @@ input[type="checkbox"]:checked::after {
   z-index: 1;
   transform: translateY(-60%);
 }
+
+/****************END BENEFICIARIES*****************************************************/
+
+/************STARTING THE REVIEW FORM*************************************/
+.review-form {
+  width: 488px;
+  height: 670px;
+  position: relative;
+  top: 90px;
+  left: 169px;
+  border-radius: 24px;
+  border-width: 1px;
+  border: 2px solid rgba(126, 126, 126, 1);
+  padding: 32px;
+  background: rgba(26, 26, 26, 1);
+}
+
+.wallet-address {
+  width: 376px;
+  height: 40px;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(58, 58, 58, 1);
+}
+
+.progress_container3 {
+  width: 484px;
+  height: 40px;
+  position: relative;
+  top: 80px;
+  left: 14%;
+  gap: 8px;
+  display: flex;
+  justify-content: space-between;
+  color: #ddd;
+}
+
+.progress_container3::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(230, 121, 32, 1);
+  height: 1px;
+  width: 100%;
+  top: 30%;
+  left: 0;
+  transform: translateY(-10%);
+}
+
+.progress_container4 {
+  width: 484px;
+  height: 40px;
+  position: relative;
+  top: 80px;
+  left: 296px;
+  gap: 8px;
+  display: flex;
+  justify-content: space-between;
+  color: #ddd;
+}
+
+.progress_container4::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(230, 121, 32, 1);
+  height: 1px;
+  width: 100%;
+  top: 30%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-60%);
+}
+
+.review-plan {
+  width: 424px;
+  height: 74px;
+  gap: 8px; 
+}
+
+.review-plan h3 {
+  width: 424px;
+  height: 43px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: -4%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.review-plan p {
+  font-family: "Lato" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.details {
+  width: 424px;
+  height: 64px;
+}
+
+.details p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 14px;
+}
+
+.details span {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  left: 3px;
+}
+
+.beneficiary {
+  width: 424px;
+  height: 196px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.beneficiary input {
+  width: 376px;
+  height: 30px;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(58, 58, 58, 1);
+  border-color: none;
+  margin: 0;
+}
+
+.beneficiary p {
+  width: 424px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 30px;
+}
+
+.conditions {
+  width: 424px;
+  height: 64px;
+  gap: 4px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conditions input {
+  width: 201px;
+  height: 30px;
+  gap: 4px;
+  background-color: rgba(58, 58, 58, 1);
+  border-radius: 20px;
+  color: #ddd;
+  padding: 10px;
+  background: transparent;
+}
+
+.conditions label {
+  width: 424px;
+  height: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+}
+
+#beneficiary-btn {
+  width: 424px;
+  height: 55px;
+  gap: 26px;
+  width: 424;
+  position: relative;
+  top: 95px;
+  height: 55;
+  gap: 10px;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  background: rgba(230, 121, 32, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Space Grotesk", sans-serif;
+}
+/***************END REVIEW FORM**********************************/
