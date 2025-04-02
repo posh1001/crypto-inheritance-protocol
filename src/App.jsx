@@ -9,6 +9,10 @@ import Login from './Pages/Login';
 import ConnectWallet from './Pages/Connect-Wallet';
 import SelectPlan from './Pages/SelectPlan';
 import Dashboard from './Pages/Dashboard';
+import DashBoardWallet from './Pages/DashBoardWallet';
+import SelectAsset from './Pages/SelectAsset';
+import Beneficiaries from './Pages/Beneficiaries';
+
 
 function App() {
 
@@ -23,6 +27,9 @@ function App() {
         <Child path='/connect-wallet' element={<ConnectWallet/>}/>
         <Child path='/select-plan' element={<SelectPlan/>}/>
         <Child path='/dashboard' element={<Dashboard/>}/>
+        <Child path='/dashboard-wallet' element={<DashBoardWallet/>}/>
+        <Child path='/select-asset' element={<SelectAsset/>}/>
+        <Child path='/beneficiaries' element={<Beneficiaries/>}/>
         </Parent>
       </GrandParent>
     </>

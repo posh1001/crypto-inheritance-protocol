@@ -16,7 +16,7 @@ const Home = () => {
              <p>Your digital assets deserve the same protection as your physical assets.</p>
              <p>Automate inheritance, stay compliant, and secure your wealth with AI-powered smart contracts and blockchain technology</p>
             </div>
-            <Link to="/signup">
+            <Link to="/get-started">
                   <Button type="secondary" onClick={() => handleClick('Primary')}>
                     Get Early Access
                   </Button>
