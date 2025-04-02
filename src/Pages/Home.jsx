@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <>
      <HomeNavbar/>
-     <div className="header"> 
-      <div className="container">
+     <div className="main-header"> 
+      <div className="container" style={{backgroundImage: "url(./assets/Images/headers.wepb)"}}>
           <div className="col-lg col-md">
-             <div className="header-text">
+             <div className="main-header-text">
              <h3>Your legacy deserves a secure tomorrow.</h3>
              <p>Your digital assets deserve the same protection as your physical assets.</p>
              <p>Automate inheritance, stay compliant, and secure your wealth with AI-powered smart contracts and blockchain technology</p>

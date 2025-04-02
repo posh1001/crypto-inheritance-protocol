@@ -10,7 +10,7 @@ import { useNavigate, Link } from 'react-router-dom';
 
 
 
-const SignUp = () => {
+const Login = () => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false);
@@ -31,14 +31,9 @@ const SignUp = () => {
   };
   const handleSubmit = async(e) => {
     e.preventDefault();
-    const { email, password, confirmPassword } = formData;
-    if (!email || !password || !confirmPassword) {
+    const { email, password} = formData;
+    if (!email || !password) {
       setError("All fields are required.");
-
-      if (password !== confirmPassword) {
-        setError('Passwords do not match');
-        return;
-      }
 
       // const response = await fetch('/api/signup', {
       //   method: 'POST',
@@ -56,11 +51,7 @@ const SignUp = () => {
         setError(data.message || 'An error occurred');
       }
     }
-
-    if (password !== confirmPassword) {
-      setError("Passwords do not match.");
-      return;
-    }
+    
     setError("");
 
     navigate('/connect-wallet')
@@ -109,8 +100,8 @@ const SignUp = () => {
        </div>
     <form className='signup-form' onSubmit={handleSubmit}>
         <div className="form-text">
-            <h3>Sign Up</h3>
-            <p>Let’s create your account</p>
+            <h3>Login</h3>
+            <p>Enter correct credentials</p>
         </div>
 
   <div className="col-8">
@@ -144,27 +135,8 @@ const SignUp = () => {
       required
     />
    </div>
-
-  <div className="col-8 mb-2 relative">
-    <label for="password" class="form-label">Confirm Password</label>
-     <span onClick={toggleConfirmPasswordVisibility}> 
-     <FontAwesomeIcon icon={faEye} className='eye'/>
-     </span>
-    <input 
-    type={showConfirmPassword ? 'text' : 'password'}
-    className="relative form-control text-light"
-    name='confirmPassword'
-    id="asset" 
-    onClick={togglePasswordVisibility}
-    placeholder='Confirm New Password'
-    value={formData.confirmPassword}
-    onChange={handleInputChange}
-    required
-    />
-  </div>
-
   <button type="submit" 
-  class="btn btn mb-3 col-8">
+  class="btn btn mt-3 col-8">
   <span style={{fontSize: "20px"}}>Next</span>
   </button>
 
@@ -178,8 +150,8 @@ const SignUp = () => {
       Sign in with Google
       </span>
   </button>
-   <span className='py-1' style={{fontFamily: "Space Grotesk, sans-serif", fontSize: "18px", fontWeight: "500", color: "white"}}>Already have an account? 
-    <Link to='/login'> Login</Link></span>
+   <span className='py-2' style={{fontFamily: "Space Grotesk, sans-serif", fontSize: "18px", fontWeight: "500", color: "white"}}>Don't have an account? 
+    <Link to='/signup'> Create an account</Link></span>
 </form>
 </div>
 </div>
@@ -189,4 +161,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp;
+export default Login;

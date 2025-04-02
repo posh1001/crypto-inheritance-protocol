@@ -43,7 +43,7 @@ footer p {
 
 /*********************STARTING THE HEADER****************************************************/
 
-.header {
+.main-header {
    background-image: url(./assets/Images/header.webp);
    background-repeat: no-repeat;
    background-size: cover;
@@ -51,7 +51,7 @@ footer p {
    height: 100%;
 }
 
-.header-text h3 {
+.main-header-text h3 {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 75px;
@@ -59,7 +59,7 @@ footer p {
   width: 825px;
 }
 
-.header-text p {
+.main-header-text p {
   color: white;
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -68,7 +68,7 @@ footer p {
   width: 825px;
 }
 
-.header-text h3 {
+.main-header-text h3 {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 75px;
@@ -156,3 +156,1047 @@ footer p {
  top: 65px;
  color: white;
 }
+
+/********************END OF BODY***************************************/
+
+/*******************STARTING THE WELCOME PAGE*************************************************/
+
+.welcome-page {
+  background: linear-gradient(180deg, #BE591E -44.61%, #2C1F49 100%);
+  background-repeat: no-repeat;
+  opacity: 24;
+  width: 600px;
+  height: 810px;
+  position: relative;
+  top: 18px;
+  left: 15px;
+  border-radius: 72px;  
+}
+
+.welcome-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 964;
+  height: 178;
+  top: 212px;
+  gap: 32px;
+}
+
+.welcome-title h1 {
+  text-align: center;
+  font-family: "Space Grotesk", sans serif;
+  font-size: 55px;
+  font-weight: 850px;
+  color: rgba(255, 255, 255, 1);
+  width: 660px;
+  height: 120px;
+}
+
+.welcome-title p {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Lato," sans serif;
+  font-size: 25px;
+  height: 23px;
+  width: 560px;
+}
+
+/************************END OF WELCOME PAGE**********************************************************/
+
+/************************************STARTING THE GET STARTED PAGE******************************************************************/
+
+.tool-tip {
+  background-color: rgba(26, 26, 26, 1);
+  width: 620px;
+  height: 810px;
+  position: relative;
+  top: 20px;
+  left: 64px;
+  border-radius: 72px;
+}
+
+.video-text h3 {
+  font-family: "Space Grotesk", sans serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  line-height: 130%;
+  letter-spacing: -4%;
+}
+
+.video-box iframe {
+  width: 422px;
+  height: 256px;
+  border-radius: 5%;
+  position: relative;
+  left: 20%;
+  top: 25px;
+}
+
+.text-video {
+  width: 422px;
+  height: 104px;
+  gap: 15px;
+  position: relative;
+  top: 45px;
+}
+
+.tooltip-btn button {
+  position: relative;
+  background-color: rgba(230, 121, 32, 1);
+  width: 422px;
+  font-family: "Space Grotesk", sans serif;
+  color: rgba(255, 255, 255, 1);
+  height: 60px;
+  left: 18px;
+}
+
+.tooltip-btn #btn2 {
+  background-color: rgba(26, 26, 26, 1);
+  border-color: rgba(230, 121, 32, 1);
+  color: rgba(255, 255, 255);
+  font-family: "Space Grotesk", sans serif;
+}
+
+#btn2:hover {
+   background-color: rgba(230, 121, 32, 1);
+}
+
+#btn3:hover {
+  background-color: #575350;
+}
+
+.img-logo {
+  width: 600px;
+  height: 59px;
+  position: relative;
+  top: 60px;
+  left: 75px;
+}
+
+.video-text h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700px;
+  font-size: 40px;
+  line-height: 120%;
+  position: relative;
+  left: 75px;
+  width: 450px;
+}
+
+.video-text p {
+  width: 400px;
+  height: 33px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 20px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  left: 80px;
+}
+
+.video-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 422px;
+  height: 512px;
+  margin-top: 112px;
+  left: 111px;
+  gap: 32px;
+  padding: 15px 15px;
+}
+
+.home-row {
+  width: 1440px;
+  padding: 1rem;
+}
+/***********************END GET STARTED PAGE**************************************************/
+
+/************************************START SIGN UP PAGE****************************************/
+.progress_container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  position: relative;
+  color: white;
+  left: 25%;
+}
+
+.progress_container::before {
+  content: "";
+  position: absolute;
+  background-color: #ddd;
+  height: 4px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+.progress {
+  background-color: var(--line-border-fill);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 10px;
+  z-index: 1;
+  transition: all 0.8s ease-in;
+  display: flex;
+}
+
+.circle1 {
+  background-color: rgba(230, 121, 32, 1);
+  border: 1px dotted black;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60%;
+  z-index: 1;
+}
+
+.circle3 {
+  background-color: rgba(230, 121, 32, 1);
+  border: 1px dotted black;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60%;
+  z-index: 1;
+}
+
+.circle4 {
+  background-color: rgba(230, 121, 32, 1);
+  border: 1px dotted black;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60%;
+  z-index: 1;
+}
+
+.circle2 {
+  background-color: rgba(190, 190, 190, 1);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60%;
+  z-index: 1;
+}
+
+.signup-progress {
+  background-color: rgba(26, 26, 26, 1);
+  width: 600px;
+  height: 810px;
+  position: relative;
+  top: 15px;
+  left: 32px;
+  border-radius: 72px;
+  
+}
+
+.circle.active {
+  border-color: var(--line-border-empty);
+  color: rgba(190, 190, 190, 1);
+}
+
+.signup-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 40px;
+}
+
+.signup-form h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 200%;
+  letter-spacing: -4%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.signup-form p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 50%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.form-text {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  width: 552px;
+}
+
+.form-text h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -4%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  left: 72px;
+}
+
+.form-text p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  left: 75px;
+}
+
+.logo {
+  margin-left: 2rem;
+}
+
+.signup-form {
+  height: 575px;
+  top: 10px;
+  gap: 2px;
+}
+
+.signup-form label {
+  color: rgba(255, 255, 255, 1);
+}
+
+.signup-form input {
+  background: transparent;
+  border-color: rgba(126, 126, 126, 1);
+  height: 56px;
+}
+
+ .usl {
+   display: flex;
+   flex-direction: row;
+   border: 1px solid rgba(126, 126, 126, 1);
+   border-radius: 7px;
+}
+
+.usl p {
+  color: rgb(253, 252, 252);
+  font-family: Space Grotesk;
+  font-weight: 700;
+  font-size: 18px;
+  position: relative;
+  top: 25px;
+  left: 12px;
+}
+
+.usl img {
+  position: relative;
+  top: 13px;
+  left: 7px;
+}
+
+#usl-input {
+   position: relative;
+   left: 78%;
+   width: 17px;
+   cursor: pointer;
+}
+
+.usl1 img {
+  position: relative;
+  top: 13px;
+  left: 7px;
+}
+
+.usl1 input {
+   position: relative;
+   left: 64%;
+   width: 19px;
+   cursor: pointer;
+}
+
+.usl1 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(126, 126, 126, 1);
+  border-radius: 7px;
+}
+
+.usl1 p {
+ color: rgb(253, 252, 252);
+ font-family: Space Grotesk;
+ font-weight: 700;
+ font-size: 18px;
+ position: relative;
+ top: 22px;
+ left: 12px;
+}
+
+.usl3 img {
+  position: relative;
+  top: 13px;
+  left: 7px;
+}
+
+.usl3 input {
+   position: relative;
+   left: 63%;
+   width: 19px;
+   cursor: pointer;
+}
+
+.usl3 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(126, 126, 126, 1);
+  border-radius: 7px;
+}
+
+.usl3 p {
+ color: rgb(253, 252, 252);
+ font-family: Space Grotesk;
+ font-weight: 700;
+ font-size: 18px;
+ position: relative;
+ top: 22px;
+ left: 12px;
+}
+
+.usl2 input {
+  position: relative;
+  left: 78%;
+  width: 17px;
+  cursor: pointer;
+}
+
+.usl1-radio {
+   left: 150%;
+}
+
+.usl2 img {
+  position: relative;
+  top: 13px;
+  left: 7px;
+}
+
+.usl2 {
+ display: flex;
+ flex-direction: row;
+ border: 1px solid rgba(126, 126, 126, 1);
+ border-radius: 7px;
+}
+
+.usl2 p {
+color: rgb(253, 252, 252);
+font-family: Space Grotesk;
+font-weight: 700;
+font-size: 18px;
+position: relative;
+top: 25px;
+left: 12px;
+}
+
+.eye {
+  width: 100%;
+  display: flex;
+  transform: translateX(45%);
+  position: relative;
+  top: 35px;
+  align-self: center;
+  color: rgb(160, 157, 157);
+}
+
+.signup-form button {
+  background-color: rgba(230, 121, 32, 1);
+  color: rgb(253, 252, 252);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  height: 56px;
+}
+
+.signup-form button:hover{
+   background-color: #5a5958;
+   color: #ddd;
+}
+
+.signup-form .btn1 {
+  background-color: transparent;
+  color: rgb(253, 252, 252);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  border-color: rgba(230, 121, 32, 1);
+}
+
+#signup::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(152, 162, 179, 1);
+}
+
+.form-label {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 20px;
+}
+
+.form-label1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  bottom: 2px;
+}
+
+#asset {
+  background-color: transparent;
+}
+
+#asset::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color:#817f7f;
+  position: relative;
+}
+
+#asset label {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  position: relative;
+  right: 5px;
+}
+
+.asset-option {
+  width: 422px;
+  height: 56px;
+  border-radius: 6px;
+  border-width: 1px;
+  padding: 16px;
+  gap: 12px;
+  
+}
+
+.asset-option {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle; 
+}
+
+input[type="checkbox"]:checked {
+  background: transparent; /* Green color when checked */
+  border-color: rgba(230, 121, 32, 1);
+}
+
+
+input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 29px;
+  width: 18px;
+  height: 19px;
+  background-color: rgba(230, 121, 32, 1); /* Inner circle */
+  border: 1px dotted rgb(10, 10, 10);;
+  z-index: 1;
+}
+
+#connect-wallet[type="checkbox"]:checked {
+  background: transparent; /* Green color when checked */
+  border-color: rgba(230, 121, 32, 1);
+}
+
+
+#connect-wallet[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 19px;
+  width: 18px;
+  height: 19px;
+  background-color: rgba(230, 121, 32, 1); /* Inner circle */
+  border: 1px dotted rgb(10, 10, 10);;
+  z-index: 1;
+}
+
+/***********************END OF SIGN UP PAGE*********************************************************/
+
+#select-plan-button {
+  width: 310px;
+  height: 59px;
+  gap: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: rgba(230, 121, 32, 1);
+}
+
+#select-plan-button span {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #ddd;
+}
+
+#select-plan-button2 {
+  width: 310px;
+  height: 59px;
+  gap: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: rgba(155, 155, 155, 1);
+}
+
+#select-plan-button2 span {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #ddd;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  gap: 24px;
+  position: relative;
+  left: 65px;
+  top: 28px;
+}
+
+.profile {
+  display: flex;
+  width: 235px;
+  height: 40px;
+  gap: 24px;
+  position: relative;
+  right: 65px;
+  top: 28px;
+}
+
+.greeting {
+  color: rgba(155, 155, 155, 1);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.profile-name {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+}
+
+.profile-list {
+  color: rgba(255, 255, 255, 1);
+  padding: 0;
+  margin: 0;
+  position: relative;
+  right: 18px;
+  top: 5px;
+}
+
+.profile-picture {
+  background-color: rgba(230, 121, 32, 1);
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 6px;
+}
+
+.price-plan {
+  background: linear-gradient(
+    0deg,
+    rgba(44, 31, 73, 1) 3%,
+    rgba(149, 94, 62, 1) 83%
+  );
+  width: 400px;
+  height: 699px;
+  border-radius: 24px;
+  border-width: 1px;
+  padding: 32px;
+}
+
+.price-plan2 {
+  background: rgba(26, 26, 26, 1);
+  width: 410px;
+  height: 699px;
+  border-radius: 24px;
+  border-width: 1px;
+  padding: 32px;
+}
+
+.price-plan4 {
+  background: rgba(26, 26, 26, 1);
+  width: 410px;
+  height: 699px;
+  border-radius: 24px;
+  border-width: 1px;
+  padding: 32px;
+}
+
+.price-plan3 {
+  background: rgba(26, 26, 26, 1);
+  width: 410px;
+  height: 699px;
+  border-radius: 24px;
+  border-width: 1px;
+  padding: 32px;
+}
+
+.plan-type {
+  width: 246;
+  height: 26;
+  border-radius: 30px;
+  border-width: 1px;
+  gap: 10px;
+  background-color: rgba(126, 126, 126, 1);
+  color: rgb(255, 246, 246);
+  text-align: center;
+}
+
+.plan-type span {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.benefits {
+  width: 650px;
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 30px;
+  column-gap: 5px;
+}
+
+.p1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  width: 246px;
+  height: 35px;
+  gap: 8px;
+}
+
+.p2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  width: 246px;
+  height: 35px;
+  gap: 8px;
+}
+
+.p1 span {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 516x;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.p2 span {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 516x;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.p2 {
+  width: 246px;
+  height: 35px;
+  gap: 8px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.benefit-list1 {
+  color: green;
+}
+
+.price-btn {
+  background-color: rgba(230, 121, 32, 1);
+}
+
+.hr-line {
+  position: relative;
+  left: 60px;
+}
+
+.payment-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 902px;
+  height: 60px;
+  position: relative;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: -4%;
+  color: rgba(255, 255, 255, 1);
+}
+/*************END OF SELECT PLAN****************************************/
+
+/*******************START DASHBOARD*************************************/
+
+.dashboard-menu {
+  width: 374px;
+  height: 954px;
+  background-color: rgba(36, 36, 36, 1);
+ }
+
+ #dashboard-btn:hover{
+    background-color: #BE591E;
+    color: #ddd;
+ }
+
+ .brand-logo {
+  width: 199px;
+  height: 59.22180938720703px;
+  position: relative;
+  top: 45px;
+  left: 64px;
+
+ }
+
+ .dashboard {
+  width: 350px;
+  height: 56px;
+  position: relative;
+  top: 192px;
+  gap: 10px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding-top: 16px;
+  padding-right: 10px;
+  padding-bottom: 22px;
+  padding-left: 64px;
+  background: rgba(230, 121, 32, 1);
+ }
+
+ .house {
+   color: rgba(255, 255, 255, 1);
+   width: 22px;
+   height: 18px;
+   position: relative;
+   bottom: 12px;
+ }
+
+ .plans {
+   color: rgba(126, 126, 126, 1);
+   font-family: "Space Grotesk", sans-serif;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 100%;
+   letter-spacing: -4%;
+   width: 276px;
+   height: 24;
+   position: relative;
+   top: 35px;
+   gap: 8px;
+ }
+
+
+ .dashboard-text {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  position: relative;
+  bottom: 10px;
+ }
+
+ .dashboard-header {
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+   position: relative;
+   height: 40px;
+   top: 45px;
+  right: 48px;
+ }
+
+ .dashboard-title {
+  width: 157px;
+  height: 32px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -4%;
+  color: rgba(255, 255, 255, 1);
+ }
+
+ .Profile {
+  width: 283px;
+  height: 40px;
+  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .upgrade-plan {
+  width: 188px;
+  height: 40px;
+  position: relative;
+  top: 170px;
+  left: 830px;
+  border-radius: 8px;
+  border-width: 1px;
+  gap: 4px;
+  padding-top: 8px;
+  padding-right: 32px;
+  padding-bottom: 8px;
+  padding-left: 32px;
+  background: rgba(36, 36, 36, 1);
+  border: 1px solid rgba(126, 126, 126, 1)
+ }
+
+ .upgrade-plan p {
+  width: 96px;
+  height: 22px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  transform: translateY(-110%); 
+  z-index: 1;
+  position: relative;
+  left: 20px;
+ }
+
+ .upgrade-plan img {
+  width: 16.504114151000977px;
+  height: 22.49248695373535px;
+  top: 0.75px;
+  left: 3.75px;
+ }
+
+ .component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+  width: 454px;
+  height: 335px;
+  position: relative;
+  top: 240px;
+  left: 230px;
+ }
+
+ .component p {
+  width: 470px;
+  height: 32px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: -4%;
+  color: rgba(255, 255, 255, 1);
+ }
+
+ .component img {
+  width: 250px;
+  height: 200px;  
+ }
+
+ .component button {
+  width: 246px;
+  height: 55px;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  background: rgba(230, 121, 32, 1);
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  bottom: 25px;
+ }
+
+ .component button:hover {
+   background-color: #5a5958;
+   color: white;
+ }

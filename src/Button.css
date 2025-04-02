@@ -72,26 +72,54 @@
   .btn-secondary:hover {
     background-color: rgba(230, 121, 32, 1);
   } */ */
+
+.btn-danger {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgba(230, 121, 32, 1);
+    color: white;
+    width: 422px;
+    height: 55px;
+    border-radius: 8px;
+    gap: 10px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    border-color: rgba(230, 121, 32, 1) ;
+}
+  
+  .btn-danger:hover {
+    background-color: rgb(99, 97, 96);
+  } */
   
   /* Danger button */
-  .btn-danger {
+  /* .btn-danger {
     background-color: #dc3545;
     color: white;
   }
   
   .btn-danger:hover {
     background-color: #c82333;
-  }
+  } */
   
   /* Outline button */
-  .btn-outline {
-    background-color: transparent;
-    color: #007bff;
-    border: 2px solid #007bff;
-  }
-  
-  .btn-outline:hover {
-    background-color: #007bff;
-    color: white;
+ 
+  .btn-Outline {
+    background-color: rgba(230, 121, 32, 1);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    width: 150px;
+    height: 55px;
+    border-radius: 8px;
+    gap: 10px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    
   }
   
