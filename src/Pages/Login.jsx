@@ -7,8 +7,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faEye } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import firebase from 'firebase/app';
+import 'firebase/auth';
 
+const firebaseConfig = {
+  apiKey: 'YOUR_API_KEY',
+  authDomain: 'YOUR_AUTH_DOMAIN',
+  projectId: 'YOUR_PROJECT_ID',
+  storageBucket: 'YOUR_STORAGE_BUCKET',
+  messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+  appId: 'YOUR_APP_ID',
+};
 
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+} else {
+  firebase.app(); // Use the default app
+};
 
 const Login = () => {
   const [password, setPassword] = useState('');
@@ -150,8 +165,8 @@ const Login = () => {
       Sign in with Google
       </span>
   </button>
-   <span className='py-2' style={{fontFamily: "Space Grotesk, sans-serif", fontSize: "18px", fontWeight: "500", color: "white"}}>Don't have an account? 
-    <Link to='/signup'> Create an account</Link></span>
+   <span className='py-4' style={{fontFamily: "Space Grotesk, sans-serif", fontSize: "18px", fontWeight: "500", color: "white"}}>Don't have an account? 
+    <Link to='/signup'> Sign Up</Link></span>
 </form>
 </div>
 </div>
