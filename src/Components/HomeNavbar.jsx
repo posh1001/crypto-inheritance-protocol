@@ -3,22 +3,25 @@ import Logo from '../assets/Images/logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
 import Button from '../Components/Buttons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faRightToBracket} from '@fortawesome/free-solid-svg-icons';
 
 const HomeNavbar = () => {
   return (
     <>
-    <nav class="navbar navbar-light py-5" style={{backgroundColor: "black"}}>
-        <div className="container"> 
-      <Link to='/'>
-        <img src={Logo} width="260px" height="80px" alt="brand-logo"/>
+      <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <Link to="/"> 
+         <img src={Logo} alt="logo" style={{width: "315px", padding: "10px"}}/>
       </Link>
-    <Link to="/signup">
-      <Button type="primary" onClick={() => handleClick('Primary')}>
-       Sign Up
-      </Button>
-    </Link>
-      </div>
-   </nav>
+    </div>
+    <div className="nav navbar-nav navbar-right d-flex" style={{ alignItems: "center", flexDirection: "row", gap: "65px"}}>
+    <Link to="/signup"><button type='Primary' id='nav-btn'><FontAwesomeIcon icon={faUser} style={{color: "rgba(255, 255, 255, 1)"}}/>Sign Up</button></Link>
+     <Link to="/login"> <button id='nav-btn'><FontAwesomeIcon icon={faRightToBracket} style={{color: "rgba(255, 255, 255, 1)"}}/> Login</button></Link>
+    </div>
+  </div>
+</nav>
     </>
   )
 }

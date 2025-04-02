@@ -39,6 +39,18 @@ footer p {
    padding: 15px;
 }
 
+#nav-btn {
+   background-color: transparent;
+   border: 2px solid rgba(230, 121, 32, 1); 
+   width: 142px;
+   height: 45px;
+   font-family: "Space Grotesk", sans serif;
+   color: rgba(255, 255, 255, 1);
+   font-size: 18px;
+   font-weight: 500;
+}
+
+
 /*********************END OF NAVBAR*************************************/
 
 /*********************STARTING THE HEADER****************************************************/

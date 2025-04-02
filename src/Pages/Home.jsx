@@ -3,16 +3,15 @@ import Logo from '../assets/images/logo.png';
 import Shield from '../assets/images/shield.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
+import Button from '../Components/Buttons';
+import HomeNavbar from '../Components/HomeNavbar';
 
 const Home = () => {
   return (
     <div>
        <header className='top-header'>
           <div className="container">
-          <Link> 
-            <img src={Logo} alt="Crypto Inheritance Protocol" style={{width: "320px", position: "relative", top: "35px"}}/>
-          </Link>
-
+          <HomeNavbar/>
  <div class="col-lg-6 col-md-6">
       <div className="header-details">
       <h1 className='animated-text'>Your legacy deserves a secure tomorrow.</h1>
