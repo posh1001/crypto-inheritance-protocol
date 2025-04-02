@@ -1,90 +1,95 @@
 import React, { useState } from 'react';
 import Logo from '../assets/images/logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
+import Home from './GetStarted';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHouse, faCoins, faChevronDown, faBell } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { faEnvelope, faHouse, faCoins, faChevronDown, faBell, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import COTI from '../assets/images/coti.png';
+import META from '../assets/images/mets.png';
+import TRUST from '../assets/images/trust.png';
 import { useNavigate } from 'react-router-dom';
-import COTI from '../assets/Images/coti.png';
-import META from '../assets/Images/mets.png';
-import TRUST from '../assets/Images/trust.png'
+import { FaChevronRight } from 'react-icons/fa';
 
-const Dashboard = () => {
-    const navigate = useNavigate();
-    const [selectedWallets, setSelectedWallets] = useState([]);
-     const [otherWallet, setOtherWallet] = useState('');
-     const [showOtherWalletDropdown, setShowOtherWalletDropdown] = useState(false);
-   
-     // Handle the selection of a wallet
-     const handleCheckboxChange = (wallet) => {
-       setSelectedWallets((prev) => {
-         if (prev.includes(wallet)) {
-           return prev.filter((item) => item !== wallet);
-         } else {
-           return [...prev, wallet];
-         }
-       });
-     };
-   
-     // Handle selection of "Other Wallet" option
-     const handleOtherWalletSelect = (event) => {
-       setOtherWallet(event.target.value);
-     };
-   
-     // Handle the submission of the selected wallet(s)
-     const handleSubmit = (e) => {
-       e.preventDefault();
-       if (selectedWallets.length === 0 && !otherWallet) {
-         alert('Please select a wallet');
-         return;
-       }
-       // Send selected wallets to the backend
-       const selectedData = {
-         selectedWallets,
-         otherWallet,
-       };
-       
-       console.log('Selected Wallet Data:', selectedData);
-       // You can replace this with your backend API call
-   
-       navigate('/select-asset');
-     };
 
+const DashboardWallet = () => {
+  const navigate = useNavigate();
+   const [selectedWallets, setSelectedWallets] = useState([]);
+    const [otherWallet, setOtherWallet] = useState('');
+    const [showOtherWalletDropdown, setShowOtherWalletDropdown] = useState(false);
+  
+    // Handle the selection of a wallet
+    const handleCheckboxChange = (wallet) => {
+      setSelectedWallets((prev) => {
+        if (prev.includes(wallet)) {
+          return prev.filter((item) => item !== wallet);
+        } else {
+          return [...prev, wallet];
+        }
+      });
+    };
+  
+    // Handle selection of "Other Wallet" option
+    const handleOtherWalletSelect = (event) => {
+      setOtherWallet(event.target.value);
+    };
+  
+    // Handle the submission of the selected wallet(s)
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      if (selectedWallets.length === 0 && !otherWallet) {
+        alert('Please select a wallet');
+        return;
+      }
+      // Send selected wallets to the backend
+      const selectedData = {
+        selectedWallets,
+        otherWallet,
+      };
+      
+      console.log('Selected Wallet Data:', selectedData);
+      // You can replace this with your backend API call
+  
+      navigate('/select-asset');
+    };
+  
 
   return (
-    <div className="" style={{backgroundColor: "black", height: "100vh", overflow: "hidden"}}> 
+    <div className="" style={{backgroundColor: "black"}}> 
+    <div className="" style={{backgroundColor: "black"}}> 
     <div className="container-fluid">
-        <div className="row">
-            <div className="col-lg-4">
-                <div className="dashboard-menu">
-                <div className="brand-logo">
-                   <Link to="/"><img src={Logo} alt="logo" /></Link>
-                </div>
-                    <div className="dashboard">
-                    <button class="btn btn" type="button" id="">
-                      <FontAwesomeIcon icon={faHouse} className='house'/>
-                    <span className='dashboard-text' style={{color: "rgba(255, 255, 255, 1)", }}>
-                    Dashboard</span>
-                   </button>
+    <div className="row">
+        <div className="col-lg-4">
+            <div className="dashboard-menu">
+            <div className="brand-logo">
+                <a href={Home}>
+                <img src={Logo} alt="logo" />
+                </a>
+            </div>
+                <div className="dashboard">
+                <button class="btn btn" type="button" id="">
+                  <FontAwesomeIcon icon={faHouse} className='house'/>
+                <span className='dashboard-text' style={{color: "rgba(255, 255, 255, 1)", }}>
+                Dashboard</span>
+               </button>
 
-                    <div className="plans d-flex">
-                    <FontAwesomeIcon icon={faCoins} className='coins'/>
-                    <p>Plans</p>
-                    </div>
-                    </div>
+                <div className="plans d-flex">
+                <FontAwesomeIcon icon={faCoins} className='coins'/>
+                <p>Plans</p>
+                </div>
                 </div>
             </div>
-            <div className="col-lg-8">
-                <div className="dashboard-header">
-                    <p className='dashboard-title'>Dashboard</p>
-                 <div className="Profile">
-                          <FontAwesomeIcon icon={faBell} className='profile-list'/>
-                          <p className="profile-name"><span className='greeting p-2'>Hello,</span>Poche</p>
-                          <span className="profile-picture"></span>
-                          <FontAwesomeIcon icon={faChevronDown} className='profile-list'/>
-                </div>
+        </div>
+        <div className="col-lg-8">
+            <div className="dashboard-header">
+                <p className='dashboard-title'>Dashboard</p>
+             <div className="Profile">
+                      <FontAwesomeIcon icon={faBell} className='profile-list'/>
+                      <p className="profile-name"><span className='greeting p-2'>Hello,</span>Poche</p>
+                      <span className="profile-picture"></span>
+                      <FontAwesomeIcon icon={faChevronDown} className='profile-list'/>
             </div>
-            <div className="progress_container1 ">
+        </div>
+                    <div className="progress_container1 ">
                     <div className="progress " ></div>
                     <div className="circle5">1</div>
                     <div className="circle6">2</div>
@@ -175,12 +180,12 @@ const Dashboard = () => {
   </button>
 </form>
 </div>
-        </div>
-        
-    </div>
-    </div>
-    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
   )
 }
 
-export default Dashboard;
+export default DashboardWallet;

@@ -1879,3 +1879,198 @@ input[type="checkbox"]:checked::after {
   font-family: "Space Grotesk", sans-serif;
 }
 /***************END REVIEW FORM**********************************/
+
+/********************BEGIN PLAN PAGE**********************************************/
+.plans-header {
+  width: 150px;
+  height: 24px;
+  position: relative;
+  top: 186px;
+  right: 48px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -4%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.plans-overview {
+  width: 307px;
+  height: 227px;
+  position: relative;
+  top: 242px;
+  right: 48px;
+  gap: 10px;
+  border-radius: 24px;
+  padding: 24px;
+  border-width: 1px;
+  background: rgba(26, 26, 26, 1);
+  border: 1px solid rgba(126, 126, 126, 1);
+}
+
+.plans-overview h3 {
+  width: 259px;
+  height: 46px;
+  gap: 32px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+}
+
+.beneficiary-num {
+  width: 259px;
+  height: 23px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.plans-header p {
+  width: 211px;
+  height: 24px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 186px;
+  right: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -4%;
+}
+
+.show-condition {
+  width: 259px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(58, 58, 58, 1);
+}
+
+#view-more-plan {
+  width: 159px;
+  height: 22px;
+  gap: 4px;
+  position: relative;
+  left: 7rem;
+  top: 25px;
+  border-bottom-width: 1px;
+  padding-bottom: 2px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#new-plan {
+  width: 246px;
+  height: 55px;
+  position: relative;
+  bottom: 55px;
+  left: 772px;
+  gap: 8px;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  background: rgba(230, 121, 32, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.plan-arrow {
+   position: relative;
+   top: 5px;
+}
+
+.plans-header button {
+  width: 286px;
+  height: 55px;
+  font-family: "Space Grotesk", sans-serif;
+  position: relative;
+  top: 170px;
+  left: 45px;
+  gap: 8px;
+  border-radius: 8px;
+  padding-top: 14px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  background-color: rgba(230, 121, 32, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.added-beneficiaries {
+  width: 307px;
+  height: 227px;
+  position: relative;
+  top: 242px;
+  right: 20px;
+  gap: 10px;
+  border-radius: 24px;
+  border-width: 1px;
+  padding: 24px;
+  background: rgba(26, 26, 26, 1);
+  border: 1px solid rgba(126, 126, 126, 1);
+}
+
+.added-details {
+  width: 259px;
+  height: 179px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 1);
+}
+
+.added-details input {
+  width: 259px;
+  height: 40px;
+  gap: 7px;
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(58, 58, 58, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.added-details h3 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.added-details span {
+  height: 20px;  
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  position: relative;
+  left: 145px;
+  text-decoration: underline;
+}
+
+.added-details p {
+  width: 259px;
+  height: 23px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1); 
+}
+
+/**************************END OF PLAN PAGE*************************************************/

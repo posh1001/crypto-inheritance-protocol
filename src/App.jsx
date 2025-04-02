@@ -15,6 +15,7 @@ import Beneficiaries from './Pages/Beneficiaries';
 import TriggerCondition from './Pages/TriggerCondition';
 import TriggerCondition2 from './Pages/TriggerCondition2';
 import ReviewPlan from './Pages/ReviewPlan';
+import Plans from './Pages/Plan';
 
 
 function App() {
@@ -30,12 +31,13 @@ function App() {
         <Child path='/connect-wallet' element={<ConnectWallet/>}/>
         <Child path='/select-plan' element={<SelectPlan/>}/>
         <Child path='/dashboard' element={<Dashboard/>}/>
-        <Child path='/dashboard-wallet' element={<DashBoardWallet/>}/>
+        <Child path='/connect-wallet2' element={<DashBoardWallet/>}/>
         <Child path='/select-asset' element={<SelectAsset/>}/>
         <Child path='/beneficiaries' element={<Beneficiaries/>}/>
         <Child path='/trigger-condition' element={<TriggerCondition/>}/>
         <Child path='/trigger-condition2' element={<TriggerCondition2/>}/>
         <Child path='/review-plan' element={<ReviewPlan/>}/>
+        <Child path='/plans' element={<Plans/>}/>
         </Parent>
       </GrandParent>
     </>
