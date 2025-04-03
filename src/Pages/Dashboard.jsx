@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import vectorImage from '../assets/Images/light.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHouse, faCoins, faChevronDown, faBell } from '@fortawesome/free-solid-svg-icons';
-import Component from '../assets/Images/component 1.png';
+import Comp from '../assets/Images/comp1.png';
 import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
@@ -46,7 +46,7 @@ const Dashboard = () => {
                     <p>Upgrade Plan</p>
                 </div>
             <div className="component ">
-                <img src={Component} alt="img"/>
+                <img src={Comp} alt="img"/>
                 <p className=''>You Do Not Have Any Asset Here</p>
                <Link to="/connect-wallet2">
                <button class="btn btn text-white" type="button" 
