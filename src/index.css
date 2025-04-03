@@ -2585,7 +2585,7 @@ position: relative;
 
 #section3 img {
   position: relative;
-  right: 7rem;
+  right: 15rem;
   bottom: 5rem;
 }
 
@@ -2594,6 +2594,11 @@ position: relative;
  font-family: "Space Grotesk", sans-serif;
  font-weight:500;
  font-size: 35px;
+ width: 680px;
+}
+
+#section3 p {
+   width: 700px;
 }
 
 .image-container {

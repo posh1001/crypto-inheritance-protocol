@@ -48,7 +48,7 @@ const Home = () => {
     </div>
 
     <div style={{backgroundColor: "rgb(28, 42, 51)", height: "100%"}}>
-   <div className="contain">
+   <div className="container">
 <div className="row" id='section3'>
             <div className="col-lg-6 col-md-6 col-sm-12" id='image-container'>
                 <img src={Shield} alt="image" style={{ width: "900px"}} className='slide-image'/>
