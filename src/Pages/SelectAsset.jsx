@@ -34,7 +34,7 @@ const SelectAsset = () => {
         setError("Please select an asset.");
         return; // Don't proceed if no asset is selected
       }
-       navigate('/add-beneficiaries')
+       navigate('/beneficiaries')
     }
   
       // Make API call to the backend

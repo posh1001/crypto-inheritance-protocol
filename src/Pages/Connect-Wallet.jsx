@@ -75,7 +75,7 @@ const navigate = useNavigate();
       <img src={COTI} alt="img" style={{width: "30px", height: "30px"}}/>
         <label>
           <input
-            id='connect-wallet'
+            id='connect-wallet2'
             style={{ cursor: "pointer", transform: "translateX(1790%)"}}
             type="checkbox"
             checked={selectedWallets.includes('COTI')}
@@ -89,8 +89,8 @@ const navigate = useNavigate();
       <img src={META} alt="img" style={{width: "30px", height: "30px"}}/>
         <label>
           <input
-             id='connect-wallet'
-             style={{ cursor: "pointer", transform: "translateX(1580%)"}}
+             id='connect-wallet2'
+             style={{ cursor: "pointer", transform: "translateX(1530%)"}}
             type="checkbox"
             checked={selectedWallets.includes('Meta Mask')}
             onChange={() => handleCheckboxChange('Meta Mask')}
@@ -102,8 +102,8 @@ const navigate = useNavigate();
       <img src={TRUST} alt="img" style={{width: "30px", height: "30px"}}/>
         <label>
           <input
-             id='connect-wallet'
-            style={{ cursor: "pointer", transform: "translateX(1570%)"}}
+             id='connect-wallet2'
+            style={{ cursor: "pointer", transform: "translateX(1500%)"}}
             type="checkbox"
             checked={selectedWallets.includes('Trust Wallet')}
             onChange={() => handleCheckboxChange('Trust Wallet')}

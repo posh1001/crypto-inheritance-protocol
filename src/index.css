@@ -1,3 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+}
+
+
+
+
 /**********************FOOTER**********************************/
 footer h1 {
    color: white;
@@ -752,7 +764,7 @@ input[type="checkbox"]:checked {
 input[type="checkbox"]:checked::after {
   content: '';
   position: absolute;
-  top: 29px;
+  top: 9px;
   width: 18px;
   height: 19px;
   background-color: rgba(230, 121, 32, 1); /* Inner circle */
@@ -769,7 +781,7 @@ input[type="checkbox"]:checked::after {
 #connect-wallet[type="checkbox"]:checked::after {
   content: '';
   position: absolute;
-  top: 19px;
+  top: 85px;
   width: 18px;
   height: 19px;
   background-color: rgba(230, 121, 32, 1); /* Inner circle */
@@ -2573,7 +2585,7 @@ position: relative;
 
 #section3 img {
   position: relative;
-  right: 10rem;
+  right: 7rem;
   bottom: 5rem;
 }
 

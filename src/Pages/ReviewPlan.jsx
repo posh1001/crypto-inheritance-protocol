@@ -49,7 +49,7 @@ const ReviewPlan = () => {
   const handleConfirm = () => {
     // Handle confirmation of the plan
     alert('Plan Confirmed!');
-    navigate('/plan')
+    navigate('/plans')
   };
 
   if (loading) {
