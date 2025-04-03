@@ -1,8 +1,8 @@
 import React from 'react';
 import '../index.css';
 import Welcome from '../Components/Welcome';
-import logo from '../assets/images/logo.png';
-import google2 from '../assets/images/google2.png';
+import logo from '../assets/Images/logo.png';
+import google2 from '../assets/Images/google2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faEye } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
