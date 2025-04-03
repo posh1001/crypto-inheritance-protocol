@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../assets/Images/logo.png';
-import Shield from '../assets/images/shield.png';
+import Shield from '../assets/Images/shield.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
 import HomeNavbar from '../Components/HomeNavbar';
