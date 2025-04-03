@@ -49,7 +49,7 @@ const Dashboard = () => {
             <div className="component ">
                 <img src={Component} alt="img"/>
                 <p className=''>You Do Not Have Any Asset Here</p>
-               <Link to="/dashboard-wallet">
+               <Link to="/connect-wallet2">
                <button class="btn btn text-white" type="button" 
                 style={{fontFamily: "Space Grotesk, sans-serif;",
                 fontSize: "16px", fontWeight: "700"}} id='dashboard-btn'>

@@ -3,7 +3,6 @@ import Logo from '../assets/images/logo.png';
 import Shield from '../assets/images/shield.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
-import Button from '../Components/Buttons';
 import HomeNavbar from '../Components/HomeNavbar';
 
 const Home = () => {
