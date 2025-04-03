@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Logo from '../assets/images/logo.png';
+import Logo from '../assets/Images/logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import Home from './GetStarted';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHouse, faCoins, faChevronDown, faBell, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import COTI from '../assets/images/coti.png';
-import META from '../assets/images/mets.png';
-import TRUST from '../assets/images/trust.png';
+import COTI from '../assets/Images/coti.png';
+import META from '../assets/Images/mets.png';
+import TRUST from '../assets/Images/trust.png';
 import { useNavigate } from 'react-router-dom';
 import { FaChevronRight } from 'react-icons/fa';
 

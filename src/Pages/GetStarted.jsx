@@ -1,8 +1,8 @@
 import React from 'react';
 import Welcome from '../Components/Welcome';
 import 'bootstrap/dist/css/bootstrap.css';
-import Logo from '../assets/images/logo.png';
-import Davido from '../assets/images/davido.mp3';
+import Logo from '../assets/Images/logo.png';
+import Davido from '../assets/Images/davido.mp3';
 import { Link } from 'react-router-dom';
 
 const GetStarted = () => {

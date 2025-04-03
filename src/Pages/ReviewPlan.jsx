@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../assets/images/logo.png';
+import Logo from '../assets/Images/logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import Home from '../Pages/Home';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope,
-faHouse, 
+faHouse,  
 faCoins, 
 faChevronDown,
 faBell,

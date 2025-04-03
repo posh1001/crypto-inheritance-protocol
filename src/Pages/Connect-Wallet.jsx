@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../index.css';
 import Welcome from '../Components/Welcome';
-import logo from '../assets/images/logo.png';
-import COTI from '../assets/images/coti.png';
-import META from '../assets/images/mets.png';
-import TRUST from '../assets/images/trust.png';
+import logo from '../assets/Images/logo.png';
+import COTI from '../assets/Images/coti.png';
+import META from '../assets/Images/mets.png';
+import TRUST from '../assets/Images/trust.png';
 import { useNavigate } from 'react-router-dom';
 import { FaChevronRight } from 'react-icons/fa';
 

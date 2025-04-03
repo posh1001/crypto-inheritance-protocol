@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Logo from '../assets/images/logo.png';
+import Logo from '../assets/Images/logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import Home from '../Pages/Home';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
