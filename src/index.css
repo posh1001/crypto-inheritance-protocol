@@ -2491,21 +2491,21 @@ input[type="checkbox"]:checked::after {
 }
 
 .header-details {
-  width: 100%;
+  width: 250px;
   position: relative;
-  top: 12rem;
-  gap: 45px;
+  top: 10rem;
+  gap: 35px;
   display: flex;
   flex-direction: column;
 }
 
 .header-details h1 {
-  width: 700px;
+  width: 680px;
  height: 123px;
  font-family: "Space Grotesk", sans-serif;
  font-weight:bolder;
  font-size: 65px;
- line-height: 100%;
+ line-height: 10%;
  letter-spacing: 0%;
  color: rgba(255, 255, 255, 1);
 }
@@ -2528,7 +2528,7 @@ position: relative;
   font-family: "Space Grotesk", sans-serif;
   font-weight:500;
   font-size: 75px;
-  line-height: 100px;
+  line-height: 80px;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 1);
   position: relative;

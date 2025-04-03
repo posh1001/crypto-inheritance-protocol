@@ -10,7 +10,7 @@ const HomeNavbar = () => {
   return (
     <>
       <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  <div class="container">
     <div class="navbar-header">
       <Link to="/"> 
          <img src={Logo} alt="logo" style={{width: "315px", padding: "10px"}}/>
