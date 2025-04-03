@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../assets/Images/logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
-import vectorImage from '../assets/Images/vector.png';
+import vectorImage from '../assets/Images/light.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHouse, faCoins, faChevronDown, faBell } from '@fortawesome/free-solid-svg-icons';
 import Component from '../assets/Images/component 1.png';
