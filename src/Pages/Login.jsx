@@ -8,6 +8,7 @@ import { faEnvelope, faEye } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import firebase from 'firebase/app';
+import { initializeApp } from "firebase/app";
 import 'firebase/auth';
 
 const firebaseConfig = {
@@ -85,18 +86,16 @@ const Login = () => {
     setShowConfirmPassword(prevState => !prevState);
   };
 
-   const handleGoogleSignUp = async () => {
-      try {
-        const result = await auth.signInWithPopup(googleProvider);
-        const user = result.user;
-        console.log(user);
-        alert(`Welcome, ${user.displayName}!`);
-        // Handle further actions like storing user data or redirecting
-      } catch (error) {
-        console.error('Error signing up with Google:', error);
-        alert('Error signing up with Google');
-      }
+  const handleGoogleSignIn = async () => {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    try {
+      const result = await firebase.auth().signInWithPopup(provider);
+      console.log('User signed in with Google:', result.user);
+    } catch (error) {
+      setError(error.message);
     }
+  };
+
  
   return (
     <div className="signup-bg" style={{backgroundColor: "black", height: "100vh"}}> 
@@ -157,7 +156,7 @@ const Login = () => {
 
   <span className='mb-2 text-white' style={{fontFamily:  "Space Grotesk, sans-serif"}}>Or</span>
 
-  <button onClick={handleGoogleSignUp} type="submit" className="btn1 col-8">
+  <button onClick={handleGoogleSignIn} type="submit" className="btn1 col-8">
     <span ><img src={google2} alt="" 
     style={{width: "27px", height: "27px",
      marginRight: "6px"}}/></span>

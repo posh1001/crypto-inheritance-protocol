@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaChevronRight } from 'react-icons/fa';
 
 
+
 const ConnectWallet = () => {
 const navigate = useNavigate();
  const [selectedWallets, setSelectedWallets] = useState([]);
