@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Home from '../Pages/Home';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHouse, faCoins, faChevronDown, faBell } from '@fortawesome/free-solid-svg-icons';
-import Vector from '../assets/Images/vector.png';
+import Vector from '../assets/Images/vector.png'
 import Component from '../assets/Images/component 1.png';
 import { Link } from 'react-router-dom';
 
